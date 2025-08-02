@@ -74,12 +74,21 @@ const Hero = () => {
                         <div className="relative">
                             <div className="w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 p-1 animate-pulse">
                                 <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center overflow-hidden">
-                                    {/* Placeholder for avatar - you can replace with actual image */}
-                                    <div className="w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
-                                        <div className="text-6xl sm:text-7xl lg:text-8xl text-gray-400">
-                                            <img src="https://github.com/hoale-torii-4/hoale-portfolio/blob/main/src/assets/avatar.jpg" alt="Avatar" className="w-full h-full object-cover" />
-                                        </div>
-                                    </div>
+                                    <img
+                                        src="/hoale-portfolio/images/avatar.jpg"
+                                        alt="Lê Anh Hòa - Software Engineer Intern"
+                                        className="w-full h-full object-cover rounded-full"
+                                        onError={(e) => {
+                                            e.target.style.display = 'none';
+                                            e.target.parentNode.innerHTML = `
+                                                <div class="w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center rounded-full">
+                                                    <div class="text-6xl sm:text-7xl lg:text-8xl text-gray-400 font-bold">
+                                                        LAH
+                                                    </div>
+                                                </div>
+                                            `;
+                                        }}
+                                    />
                                 </div>
                             </div>
 
