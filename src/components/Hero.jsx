@@ -77,7 +77,7 @@ const Hero = () => {
                                     {/* Placeholder for avatar - you can replace with actual image */}
                                     <div className="w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
                                         <div className="text-6xl sm:text-7xl lg:text-8xl text-gray-400">
-                                            <img src="./src/assets/avatar.jpg" alt="Avatar" className="w-full h-full object-cover" />
+                                            <img src="https://github.com/hoale-torii-4/hoale-portfolio/blob/main/src/assets/avatar.jpg" alt="Avatar" className="w-full h-full object-cover" />
                                         </div>
                                     </div>
                                 </div>
