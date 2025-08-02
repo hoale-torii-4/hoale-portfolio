@@ -154,11 +154,11 @@ const About = () => {
                 <div className="bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl p-8 text-white">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
                         <div className="space-y-2">
-                            <div className="text-4xl font-bold">0</div>
+                            <div className="text-4xl font-bold">N/A</div>
                             <div className="text-lg opacity-90">Years Experience</div>
                         </div>
                         <div className="space-y-2">
-                            <div className="text-4xl font-bold">0</div>
+                            <div className="text-4xl font-bold">N/A</div>
                             <div className="text-lg opacity-90">Projects Completed</div>
                         </div>
                         <div className="space-y-2">
