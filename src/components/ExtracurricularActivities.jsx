@@ -12,8 +12,8 @@ const ExtracurricularActivities = () => {
             image: 'https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/481516167_606911835555269_3526033661090756361_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF00XRiPnr8ASNkg-oXcPuVkqaabngqyVmSpppueCrJWV1zahOSKq0s06Cb3d_q3dggMivlsKu-FmHz1MCdbfcz&_nc_ohc=oYucM2VNol4Q7kNvwG7EfjP&_nc_oc=Adn-1ZBKIUc8aAs5YCg4ytLaAifNs3MV-_IyLlHZJx0Ld6rNPSpq1QUHuDo2VjqYBuroR7bTI-D57eBpuWtsRRJy&_nc_zt=23&_nc_ht=scontent.fsgn5-9.fna&_nc_gid=TMgbxmmULQUNR0meM2t3zQ&oh=00_AfReFT6-tA_690J0Kwmuobd2mBTw2N_E7goRPp6VWLl5vw&oe=6893F945',
             fbLink: 'https://www.facebook.com/duanemssg104',
             highlights: [
-                'Free Martial Arts Classes for 50+ Children',
-                'Talent Development Programs (Arts & Sports)',
+                'Free Martial Arts Classes for 30+ Children',
+                'Talent Development Programs (Arts, Dance & Sports)',
                 'Community Volunteer Coordination',
                 'Charity Fundraising Events'
             ],
@@ -61,7 +61,7 @@ const ExtracurricularActivities = () => {
                             <div className="relative h-48 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
                                 <div className="text-6xl mb-4"><img src={activity.image} alt="" className="w-full h-full object-cover" /></div>
                                 <div className="absolute top-4 right-4">
-                                    <span className="bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm font-medium">
+                                    <span className="bg-white/70 backdrop-blur-sm text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
                                         {activity.role}
                                     </span>
                                 </div>
