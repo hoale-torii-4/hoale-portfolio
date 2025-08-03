@@ -28,7 +28,7 @@ const Skills = () => {
             skills: [
                 {
                     name: "C",
-                    level: 40,
+                    level: 30,
                     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
                     description: "System Programming, Data Structures"
                 },
@@ -70,13 +70,13 @@ const Skills = () => {
             skills: [
                 {
                     name: "Git",
-                    level: 80,
+                    level: 70,
                     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
                     description: "Version Control, Collaboration"
                 },
                 {
                     name: "Docker",
-                    level: 40,
+                    level: 30,
                     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
                     description: "Containerization, Deployment"
                 },
@@ -113,7 +113,7 @@ const Skills = () => {
                         <p className="text-sm text-gray-600">{skill.description}</p>
                     </div>
                 </div>
-                <span className="text-lg font-bold text-blue-600">{skill.level}%</span>
+                {/* <span className="text-lg font-bold text-blue-600">{skill.level}%</span> */}
             </div>
 
             <div className="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
