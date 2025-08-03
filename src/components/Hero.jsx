@@ -118,11 +118,11 @@ const Hero = () => {
             </div>
 
             {/* Scroll Indicator */}
-            <div className="absolute bottom-4 lg:bottom-8 left-1/2 transform -translate-x-1/2 text-white text-center animate-bounce">
-                <div className="flex flex-col items-center">
+            <div className="absolute bottom-4 lg:bottom-8 left-1/2 transform -translate-x-1/2 text-white text-center animate-bounce z-20">
+                <div className="flex flex-col items-center cursor-pointer" onClick={() => scrollToSection('about')}>
                     <span className="text-xs lg:text-sm mb-2">Scroll down</span>
-                    <div className="w-5 h-8 lg:w-6 lg:h-10 border-2 border-white rounded-full flex justify-center">
-                        <div className="w-1 h-2 lg:h-3 bg-white rounded-full mt-1 lg:mt-2 animate-bounce"></div>
+                    <div className="w-5 h-8 lg:w-6 lg:h-10 border-2 border-white rounded-full flex justify-center hover:border-yellow-400 transition-colors duration-300">
+                        <div className="w-1 h-2 lg:h-3 bg-white rounded-full mt-1 lg:mt-2 animate-bounce hover:bg-yellow-400 transition-colors duration-300"></div>
                     </div>
                 </div>
             </div>
