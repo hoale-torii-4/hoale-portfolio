@@ -62,6 +62,17 @@ const Hero = () => {
                             >
                                 View Projects
                             </button>
+
+                            <a
+                                href="https://www.canva.com/design/DAGuzqUCnfQ/9ga4Are5YUhNM6vkNI0kLw/view?utm_content=DAGuzqUCnfQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2b2506a2ed"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="px-6 py-3 lg:px-8 lg:py-4 bg-gradient-to-r from-green-500 to-emerald-500 text-white font-semibold rounded-full hover:from-green-600 hover:to-emerald-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-sm lg:text-base inline-flex items-center justify-center space-x-2"
+                            >
+
+                                <span>View Resume</span>
+                            </a>
+
                             <button
                                 onClick={() => scrollToSection('contact')}
                                 className="px-6 py-3 lg:px-8 lg:py-4 border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-gray-900 transition-all duration-300 text-sm lg:text-base"

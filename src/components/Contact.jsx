@@ -112,6 +112,17 @@ const Contact = () => {
                             >
                                 Send Email
                             </a>
+
+                            <a
+                                href="https://www.canva.com/design/DAGuzqUCnfQ/9ga4Are5YUhNM6vkNI0kLw/view?utm_content=DAGuzqUCnfQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2b2506a2ed"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="px-8 py-3 bg-green-500 text-white font-semibold rounded-full hover:bg-green-600 transition-colors duration-300 transform hover:scale-105 inline-flex items-center space-x-2"
+                            >
+
+                                <span>View Resume</span>
+                            </a>
+
                             <a
                                 href="tel:+84384311751"
                                 className="px-8 py-3 border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-blue-600 transition-all duration-300"
