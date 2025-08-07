@@ -9,7 +9,7 @@ const ExtracurricularActivities = () => {
             period: 'May 2024 - Present',
             role: 'Project Leader & Martial Arts Instructor',
             description: 'Leading a charitable community project focused on teaching martial arts and talent development programs for underprivileged children, providing them with valuable life skills and opportunities for personal growth.',
-            image: 'https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/481516167_606911835555269_3526033661090756361_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF00XRiPnr8ASNkg-oXcPuVkqaabngqyVmSpppueCrJWV1zahOSKq0s06Cb3d_q3dggMivlsKu-FmHz1MCdbfcz&_nc_ohc=oYucM2VNol4Q7kNvwG7EfjP&_nc_oc=Adn-1ZBKIUc8aAs5YCg4ytLaAifNs3MV-_IyLlHZJx0Ld6rNPSpq1QUHuDo2VjqYBuroR7bTI-D57eBpuWtsRRJy&_nc_zt=23&_nc_ht=scontent.fsgn5-9.fna&_nc_gid=TMgbxmmULQUNR0meM2t3zQ&oh=00_AfReFT6-tA_690J0Kwmuobd2mBTw2N_E7goRPp6VWLl5vw&oe=6893F945',
+            image: 'public/images/duAnEm.jpg',
             fbLink: 'https://www.facebook.com/duanemssg104',
             highlights: [
                 'Free Martial Arts Classes for 30+ Children',
@@ -26,7 +26,7 @@ const ExtracurricularActivities = () => {
             period: 'May 2025 - Present',
             role: 'Community Leader',
             description: 'Managing and leading a gaming community focused on Arena of Valor (Liên Quân Mobile) in Ho Chi Minh City. Organizing tournaments, events, and fostering community growth.',
-            image: 'https://scontent.fsgn5-15.fna.fbcdn.net/v/t39.30808-6/525001478_1932467227486613_411707723326956727_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeET0RJM_QwqAzcY0MJPrkV0RpUIilaG89FGlQiKVobz0f91d6nevOPW-f3OG9WToIAWgdFC4cYT0WXyQeCF2OIA&_nc_ohc=-T5amRHP6HgQ7kNvwF96eao&_nc_oc=Adn1dPLfFc0Wlv5JWSAAVEyWK9zlpB2WaHtVUZSHwAfpQHQ-71dJEY-QQO5q7uI8ayzYjpZbRB1Y9XVmzwFrHGpL&_nc_zt=23&_nc_ht=scontent.fsgn5-15.fna&_nc_gid=dbk1jfOv3gZnnaORNVBMMQ&oh=00_AfSS3g6t4FH0R0GMRq3VBGvX0Jg4bR-Nk852bHvootwjGQ&oe=68940B89',
+            image: 'public/images/lq.jpg',
             fbLink: 'https://www.facebook.com/profile.php?id=61578691989871',
             highlights: [
                 'Community Building & Growth',
