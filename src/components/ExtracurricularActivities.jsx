@@ -9,7 +9,7 @@ const ExtracurricularActivities = () => {
             period: 'May 2024 - Present',
             role: 'Project Leader & Martial Arts Instructor',
             description: 'Leading a charitable community project focused on teaching martial arts and talent development programs for underprivileged children, providing them with valuable life skills and opportunities for personal growth.',
-            image: 'public/images/duAnEm.jpg',
+            image: '/hoale-portfolio/images/duAnEM.jpg',
             fbLink: 'https://www.facebook.com/duanemssg104',
             highlights: [
                 'Free Martial Arts Classes for 30+ Children',
@@ -26,7 +26,7 @@ const ExtracurricularActivities = () => {
             period: 'May 2025 - Present',
             role: 'Community Leader',
             description: 'Managing and leading a gaming community focused on Arena of Valor (Liên Quân Mobile) in Ho Chi Minh City. Organizing tournaments, events, and fostering community growth.',
-            image: 'public/images/lq.jpg',
+            image: '/hoale-portfolio/images/lq.jpg',
             fbLink: 'https://www.facebook.com/profile.php?id=61578691989871',
             highlights: [
                 'Community Building & Growth',
