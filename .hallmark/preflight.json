@@ -1,0 +1,10 @@
+{
+  "scanned_at": "2026-08-24",
+  "framework": "React 18 with Vite 5",
+  "styling": "Tailwind CSS 3 plus project CSS",
+  "fonts_before": ["Inter", "Outfit", "JetBrains Mono"],
+  "palette_before": "dark navy with orange accent",
+  "motion_before": "CSS and per-component IntersectionObserver; no motion library",
+  "spacing_before": "Tailwind defaults without a shared semantic token file",
+  "decision": "Preserve React/Vite/Tailwind and component ownership; replace visual tokens, structural rhythm and motion discipline."
+}

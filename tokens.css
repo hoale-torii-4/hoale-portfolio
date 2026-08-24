@@ -1,0 +1,66 @@
+:root {
+  --color-paper: oklch(97% 0.014 78);
+  --color-paper-2: oklch(94% 0.019 78);
+  --color-paper-3: oklch(89% 0.025 74);
+  --color-ink: oklch(20% 0.028 286);
+  --color-ink-2: oklch(34% 0.032 286);
+  --color-muted: oklch(42% 0.03 286);
+  --color-rule: oklch(80% 0.026 76);
+  --color-accent: oklch(48% 0.17 48);
+  --color-accent-strong: oklch(42% 0.18 38);
+  --color-accent-ink: oklch(98% 0.012 78);
+  --color-focus: oklch(46% 0.18 52);
+  --color-success: oklch(42% 0.12 150);
+  --color-error: oklch(50% 0.18 28);
+  --color-overlay: oklch(20% 0.028 286 / 0.72);
+
+  --font-display: "Bricolage Grotesque", "Arial Narrow", sans-serif;
+  --font-body: "IBM Plex Sans", Arial, sans-serif;
+  --font-outlier: var(--font-body);
+
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 9rem;
+
+  --text-xs: 0.76rem;
+  --text-sm: 0.9rem;
+  --text-base: 1.0625rem;
+  --text-md: 1.34rem;
+  --text-lg: 1.66rem;
+  --text-xl: 2.08rem;
+  --text-2xl: 2.58rem;
+  --text-3xl: 3.22rem;
+  --text-4xl: 4rem;
+  --text-display: clamp(3.4rem, 7vw + 0.5rem, 6.9rem);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-mid: 420ms;
+  --dur-long: 500ms;
+
+  --radius-input: 0.75rem;
+  --radius-card: 1.4rem;
+  --radius-pill: 999px;
+  --rule-hair: 1px;
+  --page-max: 90rem;
+  --page-gutter: clamp(1rem, 4vw, 4rem);
+  --banner-height: 4.5rem;
+  --z-base: 1;
+  --z-raised: 10;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-sticky-nav: 220;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+}
