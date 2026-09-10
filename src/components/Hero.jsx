@@ -20,8 +20,11 @@ const Hero = () => (
       <figure className="hero__visual hero__reveal" style={{ '--i': 2 }}>
         <div className="hero__portrait-wrap">
           <img
-            src="/hoale-portfolio/images/avatar.jpg"
-            onError={(event) => { event.currentTarget.src = '/hoale-portfolio/images/hero-portrait.png'; }}
+            src="/images/avatar.jpg"
+            onError={(event) => {
+              event.currentTarget.onerror = null;
+              event.currentTarget.src = '/images/hero-portrait.png';
+            }}
             alt="Portrait of Lê Anh Hòa"
             width="640"
             height="800"
