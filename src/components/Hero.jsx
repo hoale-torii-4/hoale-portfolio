@@ -9,7 +9,7 @@ const Hero = () => (
           I build interfaces<br />that feel <span>alive.</span>
         </h1>
         <p className="hero__lede hero__reveal" style={{ '--i': 2 }}>
-          Lê Anh Hòa — a frontend-focused software developer turning product ideas into fast, accessible and thoughtful web experiences.
+          Lê Anh Hòa - a frontend-focused software developer turning product ideas into fast, accessible and thoughtful web experiences.
         </p>
         <div className="hero__actions hero__reveal" style={{ '--i': 3 }}>
           <a className="action action--accent" href="#projects">Explore work <span aria-hidden="true">↘</span></a>
