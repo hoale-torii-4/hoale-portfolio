@@ -3,6 +3,11 @@
   isolation: isolate;
 }
 
+.portfolio-content {
+  position: relative;
+  z-index: var(--z-base);
+}
+
 .scroll-progress {
   position: fixed;
   inset: 0 auto auto 0;

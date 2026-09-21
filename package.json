@@ -6,7 +6,8 @@
   "homepage": "https://leanhhoa.id.vn",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
     "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -15,6 +16,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@types/node": "^26.6.2",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
@@ -25,6 +27,7 @@
     "eslint-plugin-react-refresh": "^0.4.7",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10",
+    "typescript": "^7.0.2",
     "vite": "^5.4.1"
   }
 }

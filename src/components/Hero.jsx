@@ -28,7 +28,6 @@ const Hero = () => (
             alt="Portrait of Lê Anh Hòa"
             width="640"
             height="800"
-            fetchPriority="high"
           />
           <div className="hero__code" aria-hidden="true">
             <span>focus</span>

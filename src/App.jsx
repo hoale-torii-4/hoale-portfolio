@@ -8,6 +8,7 @@ import Experience from './components/Experience';
 import ExtracurricularActivities from './components/ExtracurricularActivities';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import FluidFlowGrid from '@/components/ui/fluid-flow-grid';
 import './App.css';
 
 function App() {
@@ -33,16 +34,19 @@ function App() {
 
   return (
     <div className="App">
-      <div className="scroll-progress" aria-hidden="true" />
-      <Header />
-      <Hero />
-      <About />
-      <Experience />
-      <Skills />
-      <Projects />
-      <ExtracurricularActivities />
-      <Contact />
-      <Footer />
+      <FluidFlowGrid />
+      <div className="portfolio-content">
+        <div className="scroll-progress" aria-hidden="true" />
+        <Header />
+        <Hero />
+        <About />
+        <Experience />
+        <Skills />
+        <Projects />
+        <ExtracurricularActivities />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }

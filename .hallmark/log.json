@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-09-21",
+    "macrostructure": "Split Studio",
+    "theme": "Cobalt",
+    "enrichment": "Existing portrait, project CSS visuals and fluid-flow canvas",
+    "brief": "Technical visual-system redesign around the fluid-flow background",
+    "scope": "single-page iteration"
+  },
+  {
     "date": "2026-08-24",
     "macrostructure": "Portfolio Grid",
     "theme": "Bloom light",

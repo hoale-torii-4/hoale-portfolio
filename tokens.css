@@ -1,22 +1,32 @@
 :root {
-  --color-paper: oklch(97% 0.014 78);
-  --color-paper-2: oklch(94% 0.019 78);
-  --color-paper-3: oklch(89% 0.025 74);
-  --color-ink: oklch(20% 0.028 286);
-  --color-ink-2: oklch(34% 0.032 286);
-  --color-muted: oklch(42% 0.03 286);
-  --color-rule: oklch(80% 0.026 76);
-  --color-accent: oklch(48% 0.17 48);
-  --color-accent-strong: oklch(42% 0.18 38);
-  --color-accent-ink: oklch(98% 0.012 78);
-  --color-focus: oklch(46% 0.18 52);
+  --color-paper: oklch(97.8% 0.008 250);
+  --color-paper-2: oklch(94.5% 0.014 250);
+  --color-paper-3: oklch(90% 0.022 250);
+  --color-ink: oklch(20% 0.03 258);
+  --color-ink-2: oklch(32% 0.028 257);
+  --color-muted: oklch(47% 0.025 257);
+  --color-rule: oklch(78% 0.04 252);
+  --color-rule-strong: oklch(66% 0.065 254);
+  --color-rule-dark: oklch(38% 0.035 257);
+  --color-accent: oklch(56% 0.21 255);
+  --color-accent-strong: oklch(47% 0.2 258);
+  --color-accent-ink: oklch(98% 0.006 250);
+  --color-focus: oklch(58% 0.2 256);
   --color-success: oklch(42% 0.12 150);
   --color-error: oklch(50% 0.18 28);
-  --color-overlay: oklch(20% 0.028 286 / 0.72);
+  --color-graphite: oklch(21% 0.022 258);
+  --color-graphite-2: oklch(25% 0.026 258);
+  --color-inverse: oklch(95% 0.01 250);
+  --color-inverse-muted: oklch(76% 0.025 250);
+  --color-overlay: oklch(18% 0.026 258 / 0.76);
+  --color-flow-bg: oklch(97.2% 0.012 250);
+  --color-flow-line: oklch(54% 0.14 255);
+  --color-flow-accent: oklch(58% 0.2 256);
 
-  --font-display: "Bricolage Grotesque", "Arial Narrow", sans-serif;
+  --font-display: "Space Grotesk", "Arial Narrow", sans-serif;
   --font-body: "IBM Plex Sans", Arial, sans-serif;
   --font-outlier: var(--font-body);
+  --font-mono: "JetBrains Mono", "Courier New", monospace;
 
   --space-3xs: 0.125rem;
   --space-2xs: 0.25rem;
@@ -48,9 +58,9 @@
   --dur-mid: 420ms;
   --dur-long: 500ms;
 
-  --radius-input: 0.75rem;
-  --radius-card: 1.4rem;
-  --radius-pill: 999px;
+  --radius-input: 0.375rem;
+  --radius-card: 0.625rem;
+  --radius-pill: 0.375rem;
   --rule-hair: 1px;
   --page-max: 90rem;
   --page-gutter: clamp(1rem, 4vw, 4rem);
