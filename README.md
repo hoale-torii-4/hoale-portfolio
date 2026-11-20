@@ -100,12 +100,26 @@ hoale-portfolio/
 
 ## 🎓 About Me
 
-I'm **Lê Anh Hòa**, a Software Engineer Intern studying at **FPT University Ho Chi Minh Campus** (GPA: 3.16). I'm passionate about:
+I'm **Lê Anh Hòa**, a Software Engineer Intern studying at **FPT University Ho Chi Minh Campus** (GPA: 3.2). I'm passionate about:
 
 - 💻 Full-stack web development
 - 🚀 Learning new technologies
 - 🤝 Community service and charity work
 - 🥋 Martial arts instruction for underprivileged children
+
+## Research achievements
+
+Two papers accepted for 2027:
+
+- **AMI 2027 · Paper #162 · Accepted** — ESV-Gap: An Auditable Autonomous Reasoning Architecture for Evidence-Grounded Scientific Hypothesis Triage.
+- **[EAI INISCOM 2027](https://iniscom.eai-conferences.org/) · Accepted** — Which Research Gaps Close? Forecasting Gap Closure in the 6G and IoT Literature.
+
+## Selected repositories
+
+- [LumiGap](https://github.com/Khoa-Hoa-Technology-Solution-Company/lumi-gap) — AI-assisted publication trend analysis and research discovery.
+- [ESV-Gap](https://github.com/Khoa-Hoa-Technology-Solution-Company/research-paper-gap) — Evidence-grounded autonomous scientific reasoning.
+- [Manga Production Ecosystem](https://github.com/Khoa-Hoa-Technology-Solution-Company/Manga-Production-Ecosystem-Platform) — Studio operations across web, backend and mobile.
+- [Lộc Xuân](https://github.com/hoale-torii-4/sp26-swd392-final-project) — Multi-platform Tết gift commerce.
 
 ## 📞 Contact
 

@@ -1,6 +1,23 @@
 import React from 'react';
 
 const ProjectVisual = ({ variant, title }) => {
+  if (variant === 'discovery') {
+    return (
+      <div className="project-visual project-visual--discovery" role="img" aria-label={`${title} research discovery illustration`}>
+        <svg viewBox="0 0 600 360" aria-hidden="true">
+          <g className="discovery-pages">
+            <rect x="100" y="70" width="160" height="200" rx="8" />
+            <path d="M125 110h110M125 135h85M125 160h100M125 185h65" />
+          </g>
+          <path className="discovery-trend" d="m300 240 50-45 45 15 45-70 55-40" />
+          <circle className="discovery-lens" cx="380" cy="160" r="65" />
+          <path className="discovery-lens" d="m426 206 60 60" />
+        </svg>
+        <span>discover → analyze → connect</span>
+      </div>
+    );
+  }
+
   if (variant === 'graph') {
     return (
       <div className="project-visual project-visual--graph" role="img" aria-label={`${title} knowledge graph preview`}>

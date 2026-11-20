@@ -16,7 +16,7 @@ const About = () => (
           University products and two three-month internships have taken me beyond classroom exercises: working with real teams, existing codebases, deadlines and feedback loops. I’m comfortable moving between interface implementation, API integration and production-minded testing.
         </p>
         <div className="about__facts">
-          <div><strong>3.16</strong><span>Current GPA</span></div>
+          <div><strong>3.2</strong><span>Current GPA</span></div>
           <div><strong>6 months</strong><span>Internship experience</span></div>
           <div><strong>2022</strong><span>Started at FPT University</span></div>
         </div>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const links = [
   { label: 'About', id: 'about' },
+  { label: 'Research', id: 'research' },
   { label: 'Experience', id: 'experience' },
   { label: 'Work', id: 'projects' },
   { label: 'Contact', id: 'contact' },
@@ -16,7 +17,7 @@ const Header = () => {
     let frame = 0;
     const update = () => {
       setIsFloating(window.scrollY > 80);
-      const sectionIds = ['home', 'about', 'experience', 'skills', 'projects', 'activities', 'contact'];
+      const sectionIds = ['home', 'about', 'research', 'experience', 'skills', 'projects', 'activities', 'contact'];
       const current = sectionIds.reduce((found, id) => {
         const section = document.getElementById(id);
         return section && window.scrollY >= section.offsetTop - 180 ? id : found;

@@ -3,11 +3,22 @@ import ProjectVisual from './ProjectVisual';
 
 const projects = [
   {
+    title: 'LumiGap',
+    type: 'organization',
+    source: 'Organization · 2026',
+    variant: 'discovery',
+    description: 'An AI-assisted research platform combining academic metadata, semantic search, publication trends and evidence-grounded reports across web and mobile.',
+    stack: ['React', 'TypeScript', 'PostgreSQL · pgvector', 'Flutter', 'FastAPI'],
+    url: 'https://github.com/Khoa-Hoa-Technology-Solution-Company/lumi-gap',
+    liveUrl: 'https://lumigap.uk',
+    featured: true,
+  },
+  {
     title: 'ESV-Gap',
     type: 'organization',
     source: 'Organization · 2026',
     variant: 'graph',
-    description: 'A research prototype that builds temporal knowledge graphs and routes evidence-backed research-gap candidates through a fail-closed validation workflow.',
+    description: 'An auditable autonomous reasoning architecture for evidence-grounded scientific hypothesis triage, with external evidence verification and bounded autonomy. Associated paper accepted at AMI 2027 (#162).',
     stack: ['Python', 'Streamlit', 'Knowledge Graph', 'LLM'],
     url: 'https://github.com/Khoa-Hoa-Technology-Solution-Company/research-paper-gap',
     featured: true,
@@ -34,33 +45,6 @@ const projects = [
     liveUrl: 'https://shoplocxuan.onrender.com',
     featured: true,
   },
-  {
-    title: 'Prisma Migration CI/CD',
-    type: 'personal',
-    source: 'Personal · 2026',
-    variant: 'terminal',
-    description: 'A safety-focused demo for validating Prisma migrations in CI and applying controlled production migrations during CD.',
-    stack: ['Node.js', 'Prisma', 'MySQL', 'GitHub Actions'],
-    url: 'https://github.com/hoale-torii-4/prisma-migrate-ci-cd',
-  },
-  {
-    title: 'Drug Prevention Support',
-    type: 'personal',
-    source: 'Personal · 2025',
-    variant: 'graph',
-    description: 'A role-based support platform with risk assessment, consultation workflows and full-stack deployment.',
-    stack: ['React', 'Node.js', 'MySQL', 'Docker'],
-    url: 'https://github.com/hoale-torii-4/SWP391_DrugUsePreventionSupportSystem',
-  },
-  {
-    title: 'Performance Testing Pipeline',
-    type: 'personal',
-    source: 'Personal · 2025',
-    variant: 'terminal',
-    description: 'Automated performance testing integrated with GitHub Actions for repeatable validation on every delivery cycle.',
-    stack: ['Java', 'GitHub Actions', 'CI/CD', 'Testing'],
-    url: 'https://github.com/hoale-torii-4/automation-performance-testing-with-github-action',
-  },
 ];
 
 const filters = [
@@ -86,10 +70,10 @@ const Projects = () => {
       <div className="shell">
         <header className="projects__head">
           <div>
-            <p className="eyeline">Selected work · 2025—2026</p>
-            <h2 className="section-title">Recent projects, indexed by where they shipped.</h2>
+            <p className="eyeline">Selected work · 2026</p>
+            <h2 className="section-title">Research tools and products built to ship.</h2>
           </div>
-          <p className="section-lede">Public repositories from my GitHub profile and current organization work, refreshed on 24 Aug 2026.</p>
+          <p className="section-lede">Four selected repositories spanning scientific research, AI-assisted discovery and full-stack products. Updated 20 Nov 2026.</p>
         </header>
 
         <div className="projects__filters" role="group" aria-label="Filter projects">
